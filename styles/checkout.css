@@ -1,0 +1,86 @@
+.summary-container{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+.summary-content{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 1px solid;
+  padding: 10px 10px;
+  align-items: center;
+  margin-top: 10px;
+  background-color: white;
+}
+.product-img{
+  height: 100px;
+  width: 100px;
+}
+.product-total-details{
+  margin-left: 10px;
+}
+.product-price{
+  color: rgb(180, 41, 41);
+}
+.product-price-text{
+  margin-left: 5px;
+}
+.price-text{
+  color: rgb(180, 41, 41);
+}
+.button-update, .button-delete{
+  border: none;
+  border-radius: 10px;  
+  margin-top: 5px;
+  width: 100px;
+  height: 25px;
+}
+.button-update{
+  background-color: rgb(171, 240, 236);
+}
+.button-update:active{
+  background-color: rgb(62, 178, 231);
+  color: white;
+}
+.button-delete{
+  background-color: rgb(235, 167, 167);
+}
+.button-delete:active{
+  color: white;
+  background-color: rgb(250, 96, 96);
+}
+.total-price-quantity-container{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  z-index: 1;
+}
+.total-price-quantity-content{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 1px -1px 10px rgb(201, 53, 53);
+}
+.checkout-content{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.update-order-button, .place-order-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 90px;
+}
+.update-order-button{
+  background-color: rgb(165, 245, 241);
+}
+.place-order-button{
+  background-color: rgb(243, 79, 79);
+}
