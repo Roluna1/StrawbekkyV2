@@ -1,7 +1,7 @@
 .product-container{
   display: grid;
-  height: 100%;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ 
 }
 .product-content{
   display: flex;
