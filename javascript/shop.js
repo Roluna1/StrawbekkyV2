@@ -19,7 +19,7 @@ products.forEach((product) => {
     </div>  
   </div>
   `
-});
+});//a
 document.querySelector('.product-container').innerHTML = productHTML;
 
 function updateCartQuantity() {
