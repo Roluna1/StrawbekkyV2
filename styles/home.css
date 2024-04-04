@@ -2,7 +2,11 @@
 *{
   margin: 0;
 }
+.body-content{
+  width: 100%;
+}
 .about-containter-body{
+  width: 100%;
   margin-top: 138px;
   background-color: #FE88A2;
 
@@ -12,7 +16,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 60vw
+  height: 60vw;
+  max-height: 807px;
 }
 .about-text-body-content{
   display: flex;
@@ -32,10 +37,11 @@
   color: white;
   margin: 0;
   margin-left: 15px;
+  
 }
 .img-strawberry{
-  width: 7vw;
-  height: 7vw;
+  width: 6vw;
+  height: 6vw;
 }
 /* Bottom text body */
 .bottom-text-body{
@@ -44,7 +50,7 @@
 }
 /* All text body */
 .center-text-body, .delicous, .bottom-text-body{
-  font-size: 6vw;
+  font-size: 5.6vw;
 }
 .about-content-body{
   display: flex;
@@ -60,8 +66,11 @@
   width: 100%;
 }
 .strawberry-body{
-  width: 40vw;
-  height: 40vw;
+  position: relative;
+  left: 0;
+  margin-right: 25px;
+  width: 30vw;
+  height: 30vw;
 }
 /* Button visit shop */
 .bottom-button-body{
@@ -84,21 +93,22 @@
 .center-body-discount{
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 .text-discount{
   color: white;
   font-size: 2vw;
-  padding: 10px 45px;
+  padding: .5vw 4vw;
   background-color: #FF6289;
   font-weight: 200;
   font-family: "Limelight", sans-serif;
   border-radius: 5px 0px 0px 5px;
 }
 .discounted-products-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-direction: row;
   gap: 10px;
+  height: 38vw;
 }
 .product-container{
   display: flex;
@@ -108,23 +118,41 @@
   width: 100%;
   background-color: white;
   border-radius: 20px;
+  border: 1px solid;
+  height: 100%;
   overflow: hidden;
-  height: 300px;
+
 }
 .product-details{
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   width: 100%;
+  height: 100%;
   margin-left: 20px;
 
 }
 .product-image-content{
-  height: 200px;
+  height: 100%;
   border-radius: 20px;
 }
 .product-img{
-  height: 100%;
+  width: 25vw;
+  height: 30vw;
 }
 .product-price{
+  font-size: 2vw;
+}
+.product-name{
+  font-size: 2vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about-content-body{
+    min-height: 370px;
+  }
+  .center-text-body, .delicous, .bottom-text-body{
+    font-size: 6vw;
+  }
 }
