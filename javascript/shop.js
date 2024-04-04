@@ -6,10 +6,12 @@ let productHTML = '';
 products.forEach((product) => {
   productHTML += `
   <div class="product-content">
+  <div class="product-img-container">
     <div class="check-cart-container">
       <img class="check-cart" src="img/check.png" alt="">
     </div>
     <img class="product-img" src="${product.image}">
+    </div>
       <div class="product-details">
         <p class="product-name">${product.name}</p>
         <p class="product-price">₱${product.price}</p>
