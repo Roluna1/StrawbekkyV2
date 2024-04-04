@@ -48,4 +48,44 @@ export const products = [{
   image: 'img/11.jpg',
   name: 'Shrimp',
   price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/12.png',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/13.jpg',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/14.png',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/15.jpg',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/16.jpg',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/17.png',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/18.jpg',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/19.png',
+  name: 'Shrimp',
+  price: 59
 }];
