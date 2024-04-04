@@ -73,3 +73,4 @@ function updateTotalPrice() {
   document.querySelector('.price-text').textContent = `${totalPrice}`;
 }
 updateTotalPrice()
+

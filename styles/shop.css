@@ -10,6 +10,7 @@
   margin: 10px 10px;
   border-radius: 20px;
   background-color: white;
+  position: relative;
 }
 .product-img{
   width: 100%;
@@ -45,3 +46,22 @@
 .add-to-cart-button:active{
   background-color: rgb(252, 220, 172);
 }
+.check-cart-container{
+  display: none;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  animation: fade-up;
+  animation-duration: 1s;
+}
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+  }
+}
+.check-cart{
+  width: 15px;
+  height: 15px;
+}
+
+
