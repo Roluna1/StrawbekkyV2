@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+}
+.about-containter-body{
+  margin-top: 138px;
+  background-color: #FE88A2;
+
+}
+.about-content-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vw
+}
+.about-text-body-content{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Limelight", sans-serif;
+  margin-left: 30px;  
+}
+/* Top text body */
+.delicous{
+ margin: 0;
+}
+/* Center text body */
+.center-text-body{
+  display: flex;
+  color: white;
+  margin: 0;
+  margin-left: 15px;
+}
+.img-strawberry{
+  width: 7vw;
+  height: 7vw;
+}
+/* Bottom text body */
+.bottom-text-body{
+  color: white;
+  margin: 0;
+}
+/* All text body */
+.center-text-body, .delicous, .bottom-text-body{
+  font-size: 6vw;
+}
+.about-content-body{
+  display: flex;
+}
+.about-center-text-body{
+  display: flex;
+  align-items: center;
+}
+/* Right body img */
+.right-body-img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.strawberry-body{
+  width: 40vw;
+  height: 40vw;
+}
+/* Button visit shop */
+.bottom-button-body{
+  margin-top: 25px;
+}
+.button-shop{
+  color: #FF678E;
+  font-size: 2vw;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFC2CD;
+  border: 3px solid;
+  padding: 5px 18px;
+  border-color: #FF678E;
+  border-radius: 8px;
+}
+.center-body{
+  margin: 8px 8px;
+}
+.center-body-discount{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px
+}
+.text-discount{
+  color: white;
+  font-size: 2vw;
+  padding: 10px 45px;
+  background-color: #FF6289;
+  font-weight: 200;
+  font-family: "Limelight", sans-serif;
+  border-radius: 5px 0px 0px 5px;
+}
+.discounted-products-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.product-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 300px;
+}
+.product-details{
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-left: 20px;
+
+}
+.product-image-content{
+  height: 200px;
+  border-radius: 20px;
+}
+.product-img{
+  height: 100%;
+}
+.product-price{
+}
