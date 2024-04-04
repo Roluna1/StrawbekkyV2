@@ -5,15 +5,19 @@
 body{
   background-color: rgb(253, 213, 213);
 }
-.top-header{
-  height: 100%;
+.top-header {
+  position: fixed;
+  top: 0; /* This will fix it at the top of the viewport */
+  left: 0; /* Optional: you can also specify left position */
+  width: 100%; /* Make it take the full width of the viewport */
+  background-color: rgb(236, 19, 62);
+  z-index: 1; /* Optional: specify a higher z-index to ensure it's above other content */
 }
 .top-container{
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 100%;
-  background-color: rgb(236, 19, 62);
   justify-content: space-between  ;
 }
 .top-left-header{

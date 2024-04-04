@@ -1,6 +1,6 @@
 import { cartPick, removeFromCart } from '../javascript/cart.js'
 import { products } from '../javascript/products.js'
-
+updateTotalPrice()
 let cartSummaryHTML = '';
 
 cartPick.forEach((cartItem) => {
@@ -26,7 +26,7 @@ cartSummaryHTML +=
         <div class="product-quantity">
           <p class="product-quantity">Quantity: ${cartItem.quantity}</p>
            <div class="quantity-edit">
-          <button class="button-update">Update</button>
+          <button class="button-update js-update-button-${matchingProduct.id}" data-update-id="${matchingProduct.id}">Update</button>
           <button class="button-delete" data-product-id="${matchingProduct.id}">Delete</button>
       </div>
     </div>
@@ -37,7 +37,7 @@ cartSummaryHTML +=
 
 document.querySelector('.summary-container').innerHTML = cartSummaryHTML;
 console.log(cartSummaryHTML)
-
+// Delete Buttons
 document.querySelectorAll('.button-delete').forEach((link) => {
   link.addEventListener('click', () => {
 
@@ -50,6 +50,9 @@ document.querySelectorAll('.button-delete').forEach((link) => {
     updateTotalPrice()
   });
 });
+
+// Update Count Quantity
+
 updateCartQuantity()
 function updateCartQuantity() {
   let cartQuantity = 0;
@@ -62,6 +65,9 @@ function updateCartQuantity() {
   console.log(cartQuantity);
   console.log(cartPick);
 };
+
+// Update Total Price
+
 function updateTotalPrice() {
   let totalPrice = 0;
 
@@ -72,5 +78,14 @@ function updateTotalPrice() {
   });
   document.querySelector('.price-text').textContent = `${totalPrice}`;
 }
-updateTotalPrice()
 
+// Update buttons or Edit Quantities
+
+document.querySelectorAll('.button-update').forEach((update) => {
+  update.addEventListener('click', () => {
+    const editProductId = update.dataset.updateId
+    // const editQuantity = document.querySelector(`.js-update-button-${editProductId}`);
+
+  })
+});
+  
