@@ -38,4 +38,14 @@ export const products = [{
   image: 'img/9.png',
   name: 'Shrimp',
   price: 59
+},{
+  id: '13515215521521512521525',
+  image: 'img/10.jpg',
+  name: 'Shrimp',
+  price: 59
+},{
+  id: '13131444241512432342',
+  image: 'img/11.jpg',
+  name: 'Shrimp',
+  price: 59
 }];
