@@ -16,6 +16,7 @@
   border-radius: 20px;
   background-color: white;
   position: relative;
+  overflow: hidden;
 }
 .product-img-container{
   display: flex;
@@ -32,6 +33,7 @@
   cursor: pointer;
 }
 .product-details{
+  height: 65px;
   border-radius: 20px;
   margin-left: 10px;
   margin-bottom: 10px;
