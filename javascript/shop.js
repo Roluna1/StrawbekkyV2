@@ -42,14 +42,14 @@ document.querySelectorAll('.add-to-cart-button').forEach((button) => {
     const checkContainer = button.closest('.product-content').querySelector('.check-cart-container');
     checkContainer.style.display = 'block';
     
-    const timeoutId = button.dataset.timeoutId;
-    if (timeoutId) {
-      clearTimeout(parseInt(timeoutId));
+    const timeout = button.dataset.timeout;
+    if (timeout) {
+      clearTimeout(parseInt(timeout));
     }
-    const newTimeoutId = setTimeout(() => {
+    const newTimeout = setTimeout(() => {
       checkContainer.style.display = 'none';
     }, 1000);
-    button.dataset.timeoutId = newTimeoutId;
+    button.dataset.timeout = newTimeout;
   }); 
 });
 
