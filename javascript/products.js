@@ -1,21 +1,21 @@
 export const products = [{
   id: '4112512522461616224',
-  image: 'img/1.jpg',
+  image: 'img/1.png',
   name: 'Coffee',
   price: 39
 },{
   id: '41125125532266152424',
-  image: 'img/2.jpg',
+  image: 'img/2.png',
   name: 'Crossoni',
   price: 29
 },{
   id: '411251215125522424',
-  image: 'img/4.jpg',
+  image: 'img/4.png',
   name: 'Taco',
   price: 59
 },{
   id: '41125125221523212424',
-  image: 'img/5.jpg',
+  image: 'img/5.png',
   name: 'Sushi',
   price: 99
 },{
@@ -40,12 +40,12 @@ export const products = [{
   price: 59
 },{
   id: '13515215521521512521525',
-  image: 'img/10.jpg',
+  image: 'img/10.png',
   name: 'Shrimp',
   price: 59
 },{
   id: '13131444241512432342',
-  image: 'img/11.jpg',
+  image: 'img/11.png',
   name: 'Shrimp',
   price: 59
 },{
@@ -55,7 +55,7 @@ export const products = [{
   price: 59
 },{
   id: '13131444241512432342',
-  image: 'img/13.jpg',
+  image: 'img/13.png',
   name: 'Shrimp',
   price: 59
 },{
@@ -65,12 +65,12 @@ export const products = [{
   price: 59
 },{
   id: '13131444241512432342',
-  image: 'img/15.jpg',
+  image: 'img/15.png',
   name: 'Shrimp',
   price: 59
 },{
   id: '13131444241512432342',
-  image: 'img/16.jpg',
+  image: 'img/16.png',
   name: 'Shrimp',
   price: 59
 },{
@@ -80,7 +80,7 @@ export const products = [{
   price: 59
 },{
   id: '13131444241512432342',
-  image: 'img/18.jpg',
+  image: 'img/18.png',
   name: 'Shrimp',
   price: 59
 },{
